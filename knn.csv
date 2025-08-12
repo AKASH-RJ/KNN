@@ -1,49 +1,106 @@
-Amount,Transaction_Type,Location,Time,Is_Fraud
-200,Online,US,Morning,No
-150,POS,US,Afternoon,No
-500,Online,UK,Night,Yes
-50,POS,India,Morning,No
-1000,Online,US,Night,Yes
-70,POS,Canada,Afternoon,No
-800,Online,UK,Evening,Yes
-300,POS,US,Morning,No
-600,Online,India,Night,Yes
-250,POS,UK,Afternoon,No
-900,Online,Canada,Night,Yes
-400,POS,US,Evening,No
-1200,Online,US,Night,Yes
-90,POS,India,Morning,No
-700,Online,UK,Evening,Yes
-350,POS,Canada,Afternoon,No
-1300,Online,India,Night,Yes
-110,POS,US,Morning,No
-950,Online,Canada,Evening,Yes
-270,POS,UK,Afternoon,No
-1500,Online,US,Night,Yes
-80,POS,India,Evening,No
-850,Online,UK,Evening,Yes
-220,POS,Canada,Morning,No
-1250,Online,India,Night,Yes
-60,POS,US,Afternoon,No
-1400,Online,UK,Night,Yes
-180,POS,Canada,Evening,No
-100,Online,India,Morning,No
-1450,Online,US,Night,Yes
-210,POS,UK,Afternoon,No
-1550,Online,Canada,Night,Yes
-170,POS,India,Evening,No
-700,Online,US,Night,Yes
-400,POS,Canada,Afternoon,No
-1350,Online,India,Night,Yes
-200,POS,US,Morning,No
-1600,Online,UK,Night,Yes
-190,POS,India,Afternoon,No
-750,Online,Canada,Evening,Yes
-300,POS,UK,Morning,No
-1700,Online,US,Night,Yes
-260,POS,India,Afternoon,No
-1800,Online,UK,Night,Yes
-240,POS,Canada,Evening,No
-1950,Online,India,Night,Yes
-280,POS,US,Morning,No
-1850,Online,UK,Night,Yes
+transaction_amount,transaction_time,location_mismatch,num_prev_frauds,label
+120.5,14,1,0,Not Fraud
+520.0,3,0,2,Fraud
+75.0,12,0,0,Not Fraud
+2000.0,1,1,3,Fraud
+95.0,16,0,0,Not Fraud
+1500.0,2,1,4,Fraud
+65.0,18,0,0,Not Fraud
+1800.0,5,1,2,Fraud
+80.0,15,0,0,Not Fraud
+2500.0,4,1,5,Fraud
+110.0,14,0,0,Not Fraud
+1900.0,2,1,3,Fraud
+70.0,13,0,0,Not Fraud
+2100.0,3,1,4,Fraud
+85.0,17,0,0,Not Fraud
+1700.0,1,1,2,Fraud
+60.0,16,0,0,Not Fraud
+1600.0,5,1,3,Fraud
+78.0,14,0,0,Not Fraud
+2200.0,2,1,5,Fraud
+100.0,15,0,0,Not Fraud
+1500.0,4,1,4,Fraud
+68.0,18,0,0,Not Fraud
+1950.0,1,1,3,Fraud
+90.0,13,0,0,Not Fraud
+1800.0,3,1,4,Fraud
+72.0,17,0,0,Not Fraud
+2000.0,5,1,5,Fraud
+105.0,15,0,0,Not Fraud
+1750.0,2,1,3,Fraud
+80.0,16,0,0,Not Fraud
+2100.0,4,1,4,Fraud
+60.0,18,0,0,Not Fraud
+1900.0,1,1,3,Fraud
+95.0,14,0,0,Not Fraud
+1850.0,3,1,5,Fraud
+75.0,15,0,0,Not Fraud
+2000.0,2,1,4,Fraud
+85.0,16,0,0,Not Fraud
+1700.0,5,1,3,Fraud
+68.0,18,0,0,Not Fraud
+1600.0,1,1,4,Fraud
+78.0,13,0,0,Not Fraud
+2200.0,4,1,5,Fraud
+110.0,15,0,0,Not Fraud
+1500.0,2,1,3,Fraud
+70.0,16,0,0,Not Fraud
+1950.0,5,1,4,Fraud
+100.0,17,0,0,Not Fraud
+1800.0,3,1,5,Fraud
+72.0,14,0,0,Not Fraud
+2000.0,1,1,4,Fraud
+105.0,15,0,0,Not Fraud
+1750.0,4,1,3,Fraud
+80.0,18,0,0,Not Fraud
+2100.0,2,1,5,Fraud
+60.0,16,0,0,Not Fraud
+1900.0,5,1,4,Fraud
+95.0,14,0,0,Not Fraud
+1850.0,3,1,5,Fraud
+75.0,15,0,0,Not Fraud
+2000.0,1,1,4,Fraud
+85.0,16,0,0,Not Fraud
+1700.0,4,1,3,Fraud
+68.0,18,0,0,Not Fraud
+1600.0,2,1,4,Fraud
+78.0,13,0,0,Not Fraud
+2200.0,5,1,5,Fraud
+110.0,15,0,0,Not Fraud
+1500.0,3,1,3,Fraud
+70.0,16,0,0,Not Fraud
+1950.0,1,1,4,Fraud
+100.0,17,0,0,Not Fraud
+1800.0,4,1,5,Fraud
+72.0,14,0,0,Not Fraud
+2000.0,2,1,4,Fraud
+105.0,15,0,0,Not Fraud
+1750.0,5,1,3,Fraud
+80.0,18,0,0,Not Fraud
+2100.0,3,1,5,Fraud
+60.0,16,0,0,Not Fraud
+1900.0,4,1,4,Fraud
+95.0,14,0,0,Not Fraud
+1850.0,2,1,5,Fraud
+75.0,15,0,0,Not Fraud
+2000.0,5,1,4,Fraud
+85.0,16,0,0,Not Fraud
+1700.0,1,1,3,Fraud
+68.0,18,0,0,Not Fraud
+1600.0,3,1,4,Fraud
+78.0,13,0,0,Not Fraud
+2200.0,2,1,5,Fraud
+110.0,15,0,0,Not Fraud
+1500.0,4,1,3,Fraud
+70.0,16,0,0,Not Fraud
+1950.0,5,1,4,Fraud
+100.0,17,0,0,Not Fraud
+1800.0,1,1,5,Fraud
+72.0,14,0,0,Not Fraud
+2000.0,3,1,4,Fraud
+105.0,15,0,0,Not Fraud
+1750.0,2,1,3,Fraud
+80.0,18,0,0,Not Fraud
+2100.0,5,1,5,Fraud
+60.0,16,0,0,Not Fraud
